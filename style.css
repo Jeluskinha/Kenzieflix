@@ -1,0 +1,121 @@
+body,main,section,div,figure,img,h1,ul,li,p,imput,button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none
+}
+
+body {
+    width: 1280px;
+    height: 720px;
+    background-color: black;
+}
+
+main {
+    background-color: #121214;
+}
+
+.logo {
+    padding-top: 45px;
+    display: flex;
+    justify-content: center;
+    background-color: #121214;
+    margin-top: 156px;
+    margin-bottom: -97px;
+    padding-bottom: 167px;
+}
+
+.titulo {
+    margin-bottom: -250px;
+    margin-top: -114px;
+    font-size: 32px;
+    display: flex;
+    color: white;
+    justify-content: center;
+
+}
+
+.conteiner {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box {
+    width: 100%;
+    max-height: 80%;
+    margin-top: -126px;
+    padding-left: 25%;
+    margin-bottom: 271px;
+
+
+
+
+}
+
+.listaDeUsuario {
+    padding-bottom: 10px;
+    margin-bottom: 125px;
+    margin-top: 300px;
+    border-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+li{
+    list-style: none;
+}
+
+
+figure {
+    margin-bottom: -9px;
+    margin: solid 1px #121214;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.FotoPerfil:hover {
+    transform: scale(1.1);
+}
+
+.FotoPerfil{
+    border: solid 1px;
+    padding: -6px;
+    
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 18px;
+    color: #9C9C9C;
+    margin-top: 25px;
+}
+
+.bottonLayout {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.buttonselect {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin-top: -35px;
+    padding-bottom: 124px;
+  
+}
+
+
+button {
+    font-size: 16px;
+    color: white;  
+}
